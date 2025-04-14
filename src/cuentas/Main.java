@@ -1,5 +1,10 @@
 package cuentas;
 
+/**
+ * Clase principal "main" en donde se gestiona la cuenta bancaria de la clase CCuenta
+ * @author Evelyn Sherlyn
+ * @version V1.0 14-04-2025
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -13,6 +18,12 @@ public class Main {
         operativa_cuenta(cuenta1, cantidad);
     }
 
+    /**
+     * Realiza las pruebas de retirar e ingresar dinero de la clase CCuenta
+     * con la cuenta1 creada de dicha clase.
+     * @param cuenta1 Cuenta creada.
+     * @param cantidad Dinero que se ingresa en la cuenta.
+     */
     public static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
         try {
             cuenta1.retirar(2300);
