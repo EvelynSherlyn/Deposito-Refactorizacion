@@ -54,7 +54,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para ingresar salgo en la cuenta.
+     * Método para ingresar saldo en la cuenta.
      * 
      * @param cantidad a ingresar
      * @throws Exception cuando se trata de ingresas una cantidad negativa.
@@ -67,7 +67,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para retirar salgo en la cuenta.
+     * Método para retirar saldo en la cuenta.
      * 
      * @param cantidad a retirar
      * @throws Exception cuando es negativa la cantidad o menor a lo que hay
